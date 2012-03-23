@@ -1,0 +1,15 @@
+Usage:
+
+require 'dubstep.rb'
+d = DubStep.new
+d.play
+#When you get tired of sweet beats
+d.kill
+
+#Optional arguments
+# BPM - Beats per minute
+# Bass - Word to say for the bass
+# Snare - Word to say for the snare
+
+d = DubStep.new(90, 'boom', 'snare')
+d.play
